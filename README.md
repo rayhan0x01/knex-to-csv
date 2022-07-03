@@ -16,7 +16,7 @@ Import and call the `attachToStreamCSV()` function after importing Knex:
 
 ```javascript
 const knex = require('knex');
-const {attachToStreamCSV} = require('knex-on-duplicate-update');
+const {attachToStreamCSV} = require('knex-to-csv');
 attachToStreamCSV();
 ```
 
